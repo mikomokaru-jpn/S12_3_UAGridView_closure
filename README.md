@@ -1,6 +1,8 @@
 ## macOS S12_UAGridView
 ## Create a list
 
+<img src="http://mikomokaru.sakura.ne.jp/data/B32/gridObject3.png" alt="grid" title="grid" width="400">
+
 To display table data as a list in Swift, it is common to use NSTableView class. This application provides a way to display a list with simple parameter settings without implementing delegate methods. User specifies attributes of a list such as the number of columns, column widthes, a row height, and creates an array of dictionaries to be passed as data source.
 
 ### Sort by column as key
