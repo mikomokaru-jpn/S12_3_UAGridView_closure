@@ -1,4 +1,4 @@
-## macOS S12_UAGridView
+## macOS_S_UAGridView
 ## Create a list
 
 <img src="http://mikomokaru.sakura.ne.jp/data/B32/gridObject3.png" alt="grid" title="grid" width="400">
