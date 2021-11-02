@@ -12,14 +12,14 @@
 		0517D3B3256B691300AC7BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0517D3B2256B691300AC7BEF /* AppDelegate.swift */; };
 		0517D3B5256B691300AC7BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0517D3B4256B691300AC7BEF /* Assets.xcassets */; };
 		0517D3B8256B691300AC7BEF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0517D3B6256B691300AC7BEF /* MainMenu.xib */; };
-		055442E42591AEFD009A1EC1 /* GridConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442DC2591AEFC009A1EC1 /* GridConstants.swift */; };
-		055442E52591AEFD009A1EC1 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442DD2591AEFC009A1EC1 /* GridItemView.swift */; };
-		055442E62591AEFD009A1EC1 /* GridRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442DE2591AEFC009A1EC1 /* GridRecordView.swift */; };
-		055442E72591AEFD009A1EC1 /* GridObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442DF2591AEFC009A1EC1 /* GridObject.swift */; };
-		055442E82591AEFD009A1EC1 /* GridHeaderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442E02591AEFC009A1EC1 /* GridHeaderItemView.swift */; };
-		055442E92591AEFD009A1EC1 /* GridHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442E12591AEFC009A1EC1 /* GridHeaderView.swift */; };
-		055442EA2591AEFD009A1EC1 /* GridBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442E22591AEFC009A1EC1 /* GridBaseView.swift */; };
-		055442EB2591AEFD009A1EC1 /* GridDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055442E32591AEFD009A1EC1 /* GridDefinition.swift */; };
+		05B9F4752731420B004C51B0 /* GridDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F46D2731420B004C51B0 /* GridDefinition.swift */; };
+		05B9F4762731420B004C51B0 /* GridObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F46E2731420B004C51B0 /* GridObject.swift */; };
+		05B9F4772731420B004C51B0 /* GridHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F46F2731420B004C51B0 /* GridHeaderView.swift */; };
+		05B9F4782731420B004C51B0 /* GridBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F4702731420B004C51B0 /* GridBaseView.swift */; };
+		05B9F4792731420B004C51B0 /* GridRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F4712731420B004C51B0 /* GridRecordView.swift */; };
+		05B9F47A2731420B004C51B0 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F4722731420B004C51B0 /* GridItemView.swift */; };
+		05B9F47B2731420B004C51B0 /* GridConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F4732731420B004C51B0 /* GridConstants.swift */; };
+		05B9F47C2731420B004C51B0 /* GridHeaderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9F4742731420B004C51B0 /* GridHeaderItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,14 +31,14 @@
 		0517D3B7256B691300AC7BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0517D3B9256B691300AC7BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0517D3BA256B691300AC7BEF /* UAGridView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UAGridView.entitlements; sourceTree = "<group>"; };
-		055442DC2591AEFC009A1EC1 /* GridConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridConstants.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridConstants.swift"; sourceTree = "<group>"; };
-		055442DD2591AEFC009A1EC1 /* GridItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridItemView.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridItemView.swift"; sourceTree = "<group>"; };
-		055442DE2591AEFC009A1EC1 /* GridRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridRecordView.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridRecordView.swift"; sourceTree = "<group>"; };
-		055442DF2591AEFC009A1EC1 /* GridObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridObject.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridObject.swift"; sourceTree = "<group>"; };
-		055442E02591AEFC009A1EC1 /* GridHeaderItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridHeaderItemView.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridHeaderItemView.swift"; sourceTree = "<group>"; };
-		055442E12591AEFC009A1EC1 /* GridHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridHeaderView.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridHeaderView.swift"; sourceTree = "<group>"; };
-		055442E22591AEFC009A1EC1 /* GridBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridBaseView.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridBaseView.swift"; sourceTree = "<group>"; };
-		055442E32591AEFD009A1EC1 /* GridDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridDefinition.swift; path = "../12_1 UAGridView(basic)/UAGridView/GridDefinition.swift"; sourceTree = "<group>"; };
+		05B9F46D2731420B004C51B0 /* GridDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridDefinition.swift; sourceTree = "<group>"; };
+		05B9F46E2731420B004C51B0 /* GridObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridObject.swift; sourceTree = "<group>"; };
+		05B9F46F2731420B004C51B0 /* GridHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridHeaderView.swift; sourceTree = "<group>"; };
+		05B9F4702731420B004C51B0 /* GridBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridBaseView.swift; sourceTree = "<group>"; };
+		05B9F4712731420B004C51B0 /* GridRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridRecordView.swift; sourceTree = "<group>"; };
+		05B9F4722731420B004C51B0 /* GridItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		05B9F4732731420B004C51B0 /* GridConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridConstants.swift; sourceTree = "<group>"; };
+		05B9F4742731420B004C51B0 /* GridHeaderItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridHeaderItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 		0517D3A6256B691300AC7BEF = {
 			isa = PBXGroup;
 			children = (
+				05B9F46C2731420B004C51B0 /* Grid */,
 				0517D3B1256B691300AC7BEF /* UAGridView */,
-				0538E6AB257B1C25001EAFC2 /* Table */,
 				0517D3B0256B691300AC7BEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,19 +83,20 @@
 			path = UAGridView;
 			sourceTree = "<group>";
 		};
-		0538E6AB257B1C25001EAFC2 /* Table */ = {
+		05B9F46C2731420B004C51B0 /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				055442E22591AEFC009A1EC1 /* GridBaseView.swift */,
-				055442DC2591AEFC009A1EC1 /* GridConstants.swift */,
-				055442E32591AEFD009A1EC1 /* GridDefinition.swift */,
-				055442E02591AEFC009A1EC1 /* GridHeaderItemView.swift */,
-				055442E12591AEFC009A1EC1 /* GridHeaderView.swift */,
-				055442DD2591AEFC009A1EC1 /* GridItemView.swift */,
-				055442DF2591AEFC009A1EC1 /* GridObject.swift */,
-				055442DE2591AEFC009A1EC1 /* GridRecordView.swift */,
+				05B9F46D2731420B004C51B0 /* GridDefinition.swift */,
+				05B9F46E2731420B004C51B0 /* GridObject.swift */,
+				05B9F46F2731420B004C51B0 /* GridHeaderView.swift */,
+				05B9F4702731420B004C51B0 /* GridBaseView.swift */,
+				05B9F4712731420B004C51B0 /* GridRecordView.swift */,
+				05B9F4722731420B004C51B0 /* GridItemView.swift */,
+				05B9F4732731420B004C51B0 /* GridConstants.swift */,
+				05B9F4742731420B004C51B0 /* GridHeaderItemView.swift */,
 			);
-			name = Table;
+			name = Grid;
+			path = UAGridView/Grid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "権兵衛";
 				TargetAttributes = {
 					0517D3AE256B691300AC7BEF = {
@@ -174,17 +175,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				055442E72591AEFD009A1EC1 /* GridObject.swift in Sources */,
-				055442EA2591AEFD009A1EC1 /* GridBaseView.swift in Sources */,
 				05036C7E256E82FC003D4C98 /* FlipedView.swift in Sources */,
-				055442E62591AEFD009A1EC1 /* GridRecordView.swift in Sources */,
-				055442E42591AEFD009A1EC1 /* GridConstants.swift in Sources */,
-				055442E82591AEFD009A1EC1 /* GridHeaderItemView.swift in Sources */,
+				05B9F47A2731420B004C51B0 /* GridItemView.swift in Sources */,
+				05B9F4762731420B004C51B0 /* GridObject.swift in Sources */,
+				05B9F47B2731420B004C51B0 /* GridConstants.swift in Sources */,
 				0517D3B3256B691300AC7BEF /* AppDelegate.swift in Sources */,
+				05B9F4752731420B004C51B0 /* GridDefinition.swift in Sources */,
 				05036C7A256D330D003D4C98 /* UAServerRequest.swift in Sources */,
-				055442EB2591AEFD009A1EC1 /* GridDefinition.swift in Sources */,
-				055442E52591AEFD009A1EC1 /* GridItemView.swift in Sources */,
-				055442E92591AEFD009A1EC1 /* GridHeaderView.swift in Sources */,
+				05B9F47C2731420B004C51B0 /* GridHeaderItemView.swift in Sources */,
+				05B9F4772731420B004C51B0 /* GridHeaderView.swift in Sources */,
+				05B9F4782731420B004C51B0 /* GridBaseView.swift in Sources */,
+				05B9F4792731420B004C51B0 /* GridRecordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +217,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -223,6 +225,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -273,6 +276,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -280,6 +284,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = UAGridView/UAGridView.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UAGridView/Info.plist;
@@ -328,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = UAGridView/UAGridView.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UAGridView/Info.plist;
